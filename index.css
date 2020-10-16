@@ -110,4 +110,76 @@ section {
 
 html {
    font-size: 62.5%;
+   background-color: lightgrey;
 }
+
+nav {
+    padding-top: 1rem;
+ }
+ 
+ a {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    margin: 5rem;
+    padding: 1rem;
+ }
+
+ #logo {
+    height: 8rem;
+    width: 25rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+ }
+
+ header {
+    height: 12vh;
+    width: 100vw;
+    padding: 2rem;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+ }
+
+ #top {
+    display: flex; 
+    height: 88vh;
+    width: 100vw;
+ }
+
+ #steve-halama {
+    height: 88vh;
+    width: 80vw;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ #Main-Description {
+    width: 80vw;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ #Mission-Statement {
+    background-color: white; 
+    text-align: center;
+    height: 10rem;
+    width: 80vw;
+    color: black;
+    font-size: 5rem;
+    margin-left: 12rem;
+    padding-top: 2rem;
+ }
