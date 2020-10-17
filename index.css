@@ -232,3 +232,42 @@ nav {
     font-size: 2rem;
     text-align: justify;
  }
+ #About {
+     display: flex;
+     flex-direction: column;
+     height: 80vh;
+     width: 80vw;
+     margin-left: 12rem;
+ }
+
+ #Mark p {
+     text-align: center;
+ }
+
+ #Nick p {
+    text-align: center;
+ }
+
+ #Osvaldo p {
+     text-align: center;
+ }
+
+ #Zachary-N p {
+     text-align: center;
+ }
+
+ #Sawyer p {
+     text-align: center;
+ }
+
+ #Songa p {
+     text-align: center;
+ }
+
+ #Zachary-T p {
+     text-align: center;
+ }
+
+ #John p {
+     text-align: center;
+ }
