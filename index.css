@@ -242,32 +242,62 @@ nav {
 
  #Mark p {
      text-align: center;
+     border: 5px solid black;
  }
 
  #Nick p {
     text-align: center;
+    border: 5px solid black;
  }
 
  #Osvaldo p {
      text-align: center;
+     border: 5px solid black;
  }
 
  #Zachary-N p {
      text-align: center;
+     border: 5px solid black;
  }
 
  #Sawyer p {
      text-align: center;
+     border: 5px solid black;
  }
 
  #Songa p {
      text-align: center;
+     border: 5px solid black;
  }
 
  #Zachary-T p {
      text-align: center;
+     border: 5px solid black;
  }
 
  #John p {
      text-align: center;
+     border: 5px solid black;
+ }
+
+ #bottom {
+   height: 60vh;
+   width: 80vw;
+   margin-left: 12rem;
+   background-color: lightgrey;
+   color: black;
+   text-align: center;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+ }
+
+ #sven-mieke {
+   height: 50vh;
+   width: 80vw;
+   background-size: cover;
+   background-position: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
  }
