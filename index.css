@@ -323,15 +323,20 @@ nav {
  }
 
  @media only screen and (max-width: 1024px) {
+   #Main-Description {
+      width: 85vw;
+      margin-left: 8rem;
+   }
+
    #steve-halama {
     height: 44vh;
-    width: 80vw;
+    width: 85vw;
     background-size: cover;
     background-position: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 12rem;
+    margin-left: 8rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
    }
@@ -340,18 +345,18 @@ nav {
       background-color: lightgray; 
       text-align: center;
       height: 10rem;
-      width: 80vw;
+      width: 85vw;
       color: black;
       font-size: 3rem;
-      margin-left: 12rem;
+      margin-left: 8rem;
       padding-top: 2rem;
       margin-bottom: 2rem;
    }
 
    #Middle {
-      height: 60vh;
-      width: 80vw;
-      margin-left: 12rem;
+      height: 50vh;
+      width: 85vw;
+      margin-left: 8rem;
       background-color: lightgrey;
       color: black;
       text-align: center;
@@ -408,7 +413,18 @@ nav {
     #Save-Instructor {
        margin-right: 2rem;
     }
+
+    #bottom {
+      height: 60vh;
+      width: 85vw;
+      margin-left: 8rem;
  }
+
+ #sven-mieke {
+   height: 50vh;
+   width: 85vw;
+ }
+}
 
  @media only screen and (max-width: 800px) {
 
