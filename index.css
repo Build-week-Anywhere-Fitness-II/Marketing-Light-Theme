@@ -301,3 +301,23 @@ nav {
    align-items: center;
    margin-top: 2rem;
  }
+
+ #Bottom-Description h2 {
+   width: 80vw;
+   background-color: lightgray;
+   text-align: center;
+   color: black;
+   font-size: 2rem;
+   margin-left: 0rem;
+   margin-top: 2rem;
+   margin-bottom: 0rem;
+   padding-top: 2rem;
+ }
+
+ section img {
+    height: 10rem;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+ }
