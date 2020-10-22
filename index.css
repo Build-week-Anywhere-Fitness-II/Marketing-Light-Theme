@@ -472,5 +472,109 @@ nav {
  }
 
  @media only screen and (max-width: 500px) {
-
+    #About {
+       margin-left: 20rem;
+    }
+    #header {
+       display: flex;
+       flex-direction: column;
+       width: 90vw;
+       height: 60vh;
+    }
+    #logo {
+       margin-left: -6rem;
+    }
+    nav {
+       height: 20vh;
+       width: 20vw;
+    }
+    a {
+       height: 10vh;
+       width: 20vw;
+       margin-left: 1rem;
+    }
+    #steve-halama {
+       margin-left: 3rem;
+    }
+    #Main-Description {
+       margin-left: 3rem;
+    }
+    #Mission-Statement {
+       margin-left: 3rem;
+    }
+    #Middle {
+       display: flex;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-content: center;
+       margin-left: 2.5rem;
+       height: 60vh;
+    }
+    #Rate-Instructor {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 12rem;
+    }
+    #Find-Instructor {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       align-items: center;
+       margin-bottom: 12rem;
+    }
+    #Save-Instructor {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 12rem;
+    }
+    #Middle p {
+       font-size: medium;
+    }
+    #jonathan-borba {
+      height: 15vh;
+      width: 20vw;
+      border: 0.5rem solid black;
+      border-radius: 2rem;
+      margin-top: -0.40rem;
+      margin-left: 4rem;
+   }
+   
+   #ryan-de-hamer {
+      height: 15vh;
+      width: 20vw;
+      border: 0.5rem solid black;
+      border-radius: 2rem;
+      margin-top: 2.5rem;
+   }
+   
+   #mika {
+      height: 15vh;
+      width: 20vw;
+      border: 0.5rem solid black;
+      border-radius: 2rem;
+      margin-left: -2rem;
+      margin-top: -2rem;
+   }
+   #bottom {
+      margin-left: 2.5rem;
+      width: 92vw;
+   }
+   #sven-mieke {
+      height: 45vh;
+      width: 85vw;
+    }
+    #Bottom-Description {
+       margin-left: 3rem;
+    }
+    #Boxes {
+       display: flex;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-items: center;
+       margin-left: 5rem;
+    }
  }
