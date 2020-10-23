@@ -1,0 +1,580 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&family=Ubuntu+Condensed&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+   display: block;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+   background-color: white;
+}
+
+nav {
+    padding-top: 1rem;
+ }
+ 
+ a {
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: lightgray;
+    color: black;
+    margin: 5rem;
+    padding: 1rem;
+ }
+
+ #logo {
+    height: 8rem;
+    width: 25rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+ }
+
+ header {
+    height: 12vh;
+    width: 100vw;
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+ }
+
+ #steve-halama {
+    height: 88vh;
+    width: 80vw;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ #Main-Description {
+    width: 80vw;
+    background-color: lightgray;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ #Mission-Statement {
+    background-color: lightgray; 
+    text-align: center;
+    height: 10rem;
+    width: 80vw;
+    color: black;
+    font-size: 5rem;
+    margin-left: 12rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ #Middle {
+   height: 60vh;
+   width: 80vw;
+   margin-left: 12rem;
+   background-color: lightgrey;
+   color: black;
+   text-align: center;
+   display: flex;
+   flex-flow: row;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+ #boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 20vw;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 2rem;
+ }
+
+ #jonathan-borba {
+    height: 20vh;
+    width: 18vw;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+ }
+ 
+ #ryan-de-hamer {
+    height: 20vh;
+    width: 18vw;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+ }
+ 
+ #mika {
+    height: 20vh;
+    width: 18vw;
+    border: 0.5rem solid black;
+    border-radius: 2rem;
+ }
+ 
+ p {
+    margin: 4rem 3rem;
+    background-color: lightgrey;
+    color: black;
+    font-size: 2rem;
+    text-align: justify;
+ }
+ #About {
+     display: flex;
+     flex-direction: column;
+     height: 80vh;
+     width: 80vw;
+     margin-left: 12rem;
+ }
+
+ #Mark p {
+     text-align: center;
+     border: 5px solid black;
+ }
+
+ #Nick p {
+    text-align: center;
+    border: 5px solid black;
+ }
+
+ #Osvaldo p {
+     text-align: center;
+     border: 5px solid black;
+ }
+
+ #Zachary-N p {
+     text-align: center;
+     border: 5px solid black;
+ }
+
+ #Sawyer p {
+     text-align: center;
+     border: 5px solid black;
+ }
+
+ #Songa p {
+     text-align: center;
+     border: 5px solid black;
+ }
+
+ #Zachary-T p {
+     text-align: center;
+     border: 5px solid black;
+ }
+
+ #John p {
+     text-align: center;
+     border: 5px solid black;
+ }
+
+ #bottom {
+   height: 60vh;
+   width: 80vw;
+   margin-left: 12rem;
+   background-color: lightgrey;
+   color: black;
+   text-align: center;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+ }
+
+ #sven-mieke {
+   height: 50vh;
+   width: 80vw;
+   background-size: cover;
+   background-position: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2rem;
+ }
+
+ #Bottom-Description h2 {
+   width: 80vw;
+   background-color: lightgray;
+   text-align: center;
+   color: black;
+   font-size: 2rem;
+   margin-left: 0rem;
+   margin-top: 2rem;
+   margin-bottom: 0rem;
+   padding-top: 2rem;
+ }
+
+ section img {
+    height: 10rem;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+ }
+
+ @media only screen and (max-width: 1024px) {
+   header {
+      height: 12vh;
+      width: 85vw;
+   }
+
+   #Main-Description {
+      width: 85vw;
+      margin-left: 8rem;
+   }
+
+   #steve-halama {
+    height: 44vh;
+    width: 85vw;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   }
+
+   #Mission-Statement {
+      background-color: lightgray; 
+      text-align: center;
+      height: 10rem;
+      width: 85vw;
+      color: black;
+      font-size: 3rem;
+      margin-left: 8rem;
+      padding-top: 2rem;
+      margin-bottom: 2rem;
+   }
+
+   #Middle {
+      height: 50vh;
+      width: 85vw;
+      margin-left: 8rem;
+      background-color: lightgrey;
+      color: black;
+      text-align: center;
+      display: flex;
+      flex-flow: row;
+      justify-content: space-evenly;
+      align-items: center;
+   }
+   
+    #boxes {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       height: 50vh;
+       width: 15vw;
+       background-color: lightgrey;
+       color: black;
+       border-radius: 2rem;
+    }
+   
+    #jonathan-borba {
+       height: 20vh;
+       width: 18vw;
+       border: 0.5rem solid black;
+       border-radius: 2rem;
+       margin-top: -0.40rem;
+    }
+    
+    #ryan-de-hamer {
+       height: 20vh;
+       width: 18vw;
+       border: 0.5rem solid black;
+       border-radius: 2rem;
+       margin-top: 2.5rem;
+    }
+    
+    #mika {
+       height: 20vh;
+       width: 18vw;
+       border: 0.5rem solid black;
+       border-radius: 2rem;
+       margin-left: -2rem;
+       margin-top: -2rem;
+    }
+    
+    #Rate-Instructor {
+       margin-right: -4rem;
+    }
+
+    #Find-Instructor {
+       margin-left: 2rem;
+    }
+
+    #Save-Instructor {
+       margin-right: 2rem;
+    }
+
+    #bottom {
+      height: 60vh;
+      width: 85vw;
+      margin-left: 8rem;
+ }
+
+ #sven-mieke {
+   height: 50vh;
+   width: 85vw;
+ }
+}
+
+ @media only screen and (max-width: 800px) {
+    header {
+       height: 20vh;
+    }
+    nav {
+       display: flex;
+       flex-direction: row;
+       width: 100vw;
+       height: 20vh;
+       justify-content: space-evenly;
+    }
+    #logo {
+       margin-top: 6rem;
+    }
+    #Middle {
+       width: 92vw;
+       margin-left: 3rem;
+    }
+    #steve-halama {
+      width: 90vw;
+      margin-left: 4rem;
+    }
+    #Main-Description {
+       width: 90vw;
+       margin-left: 4rem;
+    }
+    #Mission-Statement {
+       width: 90vw;
+       margin-left: 4rem;
+    }
+    #bottom {
+      height: 60vh;
+      width: 90vw;
+      margin-left: 4rem;
+    }
+    #About {
+       margin-left: 6rem;
+    }
+ }
+
+ @media only screen and (max-width: 500px) {
+    #About {
+       margin-left: 20rem;
+    }
+    #header {
+       display: flex;
+       flex-direction: column;
+       width: 90vw;
+       height: 60vh;
+    }
+    #logo {
+       margin-left: -6rem;
+    }
+    nav {
+       height: 20vh;
+       width: 20vw;
+    }
+    a {
+       height: 10vh;
+       width: 20vw;
+       margin-left: 1rem;
+    }
+    #steve-halama {
+       margin-left: 3rem;
+    }
+    #Main-Description {
+       margin-left: 3rem;
+    }
+    #Mission-Statement {
+       margin-left: 3rem;
+    }
+    #Middle {
+       display: flex;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-content: center;
+       margin-left: 2.5rem;
+       height: 60vh;
+    }
+    #Rate-Instructor {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 12rem;
+    }
+    #Find-Instructor {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       align-items: center;
+       margin-bottom: 12rem;
+    }
+    #Save-Instructor {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 12rem;
+    }
+    #Middle p {
+       font-size: medium;
+    }
+    #jonathan-borba {
+      height: 15vh;
+      width: 20vw;
+      border: 0.5rem solid black;
+      border-radius: 2rem;
+      margin-top: -0.40rem;
+      margin-left: 4rem;
+   }
+   
+   #ryan-de-hamer {
+      height: 15vh;
+      width: 20vw;
+      border: 0.5rem solid black;
+      border-radius: 2rem;
+      margin-top: 2.5rem;
+   }
+   
+   #mika {
+      height: 15vh;
+      width: 20vw;
+      border: 0.5rem solid black;
+      border-radius: 2rem;
+      margin-left: -2rem;
+      margin-top: -2rem;
+   }
+   #bottom {
+      margin-left: 2.5rem;
+      width: 92vw;
+   }
+   #sven-mieke {
+      height: 45vh;
+      width: 85vw;
+    }
+    #Bottom-Description {
+       margin-left: 3rem;
+    }
+    #Boxes {
+       display: flex;
+       flex-flow: column wrap;
+       justify-content: center;
+       align-items: center;
+       margin-left: 6rem;
+    }
+ }
