@@ -482,19 +482,24 @@ nav {
        height: 60vh;
     }
     #logo {
-       margin-left: -6rem;
+       margin-left: 2rem;
+       margin-top: 15rem;
+       margin-bottom: -6rem;
     }
     nav {
        height: 20vh;
        width: 20vw;
+       margin-left: 10rem;
+       margin-bottom: 10rem;
     }
     a {
-       height: 10vh;
+       height: 8vh;
        width: 20vw;
-       margin-left: 1rem;
+       margin-left: 2rem;
     }
     #steve-halama {
        margin-left: 3rem;
+       margin-top: 2rem;
     }
     #Main-Description {
        margin-left: 3rem;
@@ -576,5 +581,11 @@ nav {
        justify-content: center;
        align-items: center;
        margin-left: 6rem;
+    }
+    #vert {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
     }
  }
